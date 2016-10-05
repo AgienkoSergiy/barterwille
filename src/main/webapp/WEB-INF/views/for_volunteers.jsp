@@ -6,23 +6,22 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <title><spring:message code="home.title"/></title>
+    <title>Волонтерам</title>
 </head>
 <body>
 <section>
     <div class="jumbotron">
         <div class="container">
-            <h1> ${greeting} </h1>
-            <p> ${welcome} </p>
+            <h1> Посіпаки </h1>
+            <p> Ворк енд тревел, гайс! </p>
         </div>
     </div>
 </section>
 
 <section>
-    <div class="accordion" style="font-size: large">
-        <p>Тут треба розказати всім навіщо треба реєстрація і що вона дає.<br/>
-            Також проінформувати людей про набір до волонтерського корпусу та заохотити
-            до приєднання в бригаду волонтерів<strike>-смертників</strike></p>
+    <div class="container">
+        <img src="<c:url value ="/resources/images/volunteers.png"></c:url>"
+             alt = "image" style="width: 100%"/>
     </div>
 </section>
 </body>

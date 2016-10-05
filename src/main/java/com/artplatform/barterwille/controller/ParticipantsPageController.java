@@ -1,28 +1,37 @@
 package com.artplatform.barterwille.controller;
 
+import com.artplatform.barterwille.domain.Participant;
 import com.artplatform.barterwille.tmp.Decoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping("/participants")
 public class ParticipantsPageController {
-    Decoder decoder = new Decoder(); //todo remove after localization injection
-    @RequestMapping("/")
+    private Decoder decoder = new Decoder(); //todo remove after localization injection
+    @RequestMapping("")
     public String participants(Model model){
         model.addAttribute("title", decoder.decode(decoder.labels.getString("participants.title")));
         model.addAttribute("message", decoder.decode(decoder.labels.getString("participants.message")));
         model.addAttribute("signInButton", decoder.decode(decoder.labels.getString("participants.signIn.button")));
         model.addAttribute("programButton", decoder.decode(decoder.labels.getString("participants.program.button")));
 
-        return "forParticipants";
+        return "for_participants";
     }
 
-    @RequestMapping("/signin")
-    public String signIn(Model model){
+    @RequestMapping(value = "/signin", method = RequestMethod.GET)
+    public String getSignInForm(@ModelAttribute("newParticipant")Participant participant){
         //todo form
-        return "signIn";
+        return "sign_in";
+    }
+
+    public String processSigningIn(@ModelAttribute("newParticipant")Participant participant){
+
+        //todo signing in
+        return "redirect:/participants";
     }
 
     @RequestMapping("/schedule")
