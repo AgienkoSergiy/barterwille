@@ -12,7 +12,7 @@ import com.artplatform.barterwille.tmp.Decoder;
 public class HomePageController {
     Decoder decoder = new Decoder(); // todo remove
 
-    @RequestMapping("/")
+    @RequestMapping(value={"/","/home"})
     public String home(Model model){
         model.addAttribute("greeting",decoder.decode(decoder.labels.getString("home.greeting")));
         model.addAttribute("welcome",decoder.decode(decoder.labels.getString("home.welcome")));

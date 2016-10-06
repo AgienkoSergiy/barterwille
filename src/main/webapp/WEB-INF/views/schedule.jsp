@@ -13,32 +13,29 @@
 <div class="container">
     <div class="header">
         <ul class="nav nav-pills pull-right">
-            <li><a href="<spring:url value="/for_participants"/>"style="font-size: large">Учасникам</a></li>
-            <li><a href="<spring:url value="/for_volunteers"/>"style="font-size: large">Волонтерам</a></li>
-            <li><a href="<spring:url value="/about_us"/>"style="font-size: large">Про нас</a></li>
+            <li><a href="<spring:url value="/home"/>"style="font-size: large">Головна</a></li>
         </ul>
-        <a href="<spring:url value="/"/>">
+        <a href="<spring:url value="/home"/>">
             <img src="<c:url value="/resources/images/logo.png"/>"
                  style="width:50%" alt="logo" border="0"/>
         </a>
     </div>
 </div>
 
-<section>
-    <div class="jumbotron">
-        <div class="container">
-            <h1> ${greeting} </h1>
-            <p> ${welcome} </p>
-        </div>
+<div class="jumbotron">
+    <div class="container">
+        <h1>Програма фесту</h1>
     </div>
-</section>
+</div>
+
 
 <section>
     <div class="accordion" style="font-size: large">
-        <p>Тут треба розказати всім навіщо треба реєстрація і що вона дає.<br/>
-            Також проінформувати людей про набір до волонтерського корпусу та заохотити
-            до приєднання в бригаду волонтерів<strike>-смертників</strike></p>
+        <p style="font-size: large">Тут буде програма фесту і треба подумать чи розбивать її на куски(музло, хендмейд і тд) по різним сторінкам </p>
     </div>
 </section>
+<div style="text-align: center">
+    <img src="<c:url value="/resources/images/schedule.png"/>" style="width: 50%"/>
+</div>
 </body>
 </html>

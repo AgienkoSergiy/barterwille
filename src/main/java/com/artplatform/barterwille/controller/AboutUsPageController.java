@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/about_us")
 public class AboutUsPageController {
 
+    @RequestMapping("")
+    public String aboutUs(){
+        return "about_us";
+    }
 
     @RequestMapping("/contacts")
     public String contacts(){

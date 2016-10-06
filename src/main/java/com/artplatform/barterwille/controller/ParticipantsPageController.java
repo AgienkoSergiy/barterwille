@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/participants")
+@RequestMapping("/for_participants")
 public class ParticipantsPageController {
     private Decoder decoder = new Decoder(); //todo remove after localization injection
     @RequestMapping("")
@@ -22,22 +22,32 @@ public class ParticipantsPageController {
         return "for_participants";
     }
 
-    @RequestMapping(value = "/signin", method = RequestMethod.GET)
-    public String getSignInForm(@ModelAttribute("newParticipant")Participant participant){
+    @RequestMapping(value = "/sign_in", method = RequestMethod.GET)
+    public String getSignInForm(){
         //todo form
         return "sign_in";
     }
-
+/*
     public String processSigningIn(@ModelAttribute("newParticipant")Participant participant){
 
         //todo signing in
         return "redirect:/participants";
     }
-
+*/
     @RequestMapping("/schedule")
     public String schedule(Model model){
         //todo splitting into music and other art
         return "schedule";
+    }
+
+    @RequestMapping("/map")
+    public String map(){
+        return "map";
+    }
+
+    @RequestMapping("/route")
+    public String location(){
+        return "route";
     }
 
 
