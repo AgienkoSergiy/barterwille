@@ -24,7 +24,7 @@
     </div>
     <div class="jumbotron">
         <div class="container">
-            <h2>Про нас</h2>
+            <h1>Про нас</h1>
             <h7>Інфа в текстовому вигляді.</h7>
         </div>
     </div>
