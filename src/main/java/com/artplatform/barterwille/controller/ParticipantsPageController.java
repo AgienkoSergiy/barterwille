@@ -1,6 +1,7 @@
 package com.artplatform.barterwille.controller;
 
-import com.artplatform.barterwille.domain.Participant;
+
+import com.artplatform.barterwille.model.ParticipantEntity;
 import com.artplatform.barterwille.tmp.Decoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,17 +24,19 @@ public class ParticipantsPageController {
     }
 
     @RequestMapping(value = "/sign_in", method = RequestMethod.GET)
-    public String getSignInForm(){
+    public String getSignInForm(@ModelAttribute("newParticipant")ParticipantEntity participantEntity){
         //todo form
         return "sign_in";
     }
-/*
-    public String processSigningIn(@ModelAttribute("newParticipant")Participant participant){
 
+    @RequestMapping(value = "/sign_in", method = RequestMethod.POST)
+    public String processSigningIn(@ModelAttribute("newParticipant")ParticipantEntity participantEntity){
+
+        //model.addAttribute("newParticipant",new ParticipantEntity());
         //todo signing in
         return "redirect:/participants";
     }
-*/
+
     @RequestMapping("/schedule")
     public String schedule(Model model){
         //todo splitting into music and other art

@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@page contentType="text/html; charset=Windows-1251"%>
 
 <html>
@@ -28,6 +29,29 @@
             <p> Ворк енд тревел, гайс! </p>
         </div>
     </div>
+</section>
+
+<section class="container">
+    <form:form  modelAttribute="newVolunteer" class="form-horizontal" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Долучитися</legend>
+
+            <div class="form-group">
+                <label class="control-label col-lg-2" for="vParticipantId">E-mail:</label>  <!--todo make it right!-->
+                <div class="col-lg-10">
+                    <form:input id="vParticipantId" path="vParticipantId" type="text" class="form:input-large"/>
+                    <form:errors path="vParticipantId" cssClass="text-danger"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <input type="submit" id="btnAdd" class="btn btn-primary" value ="Підтвердити"/>
+                </div>
+            </div>
+
+        </fieldset>
+    </form:form>
 </section>
 
 <section>

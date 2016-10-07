@@ -32,6 +32,37 @@
         <p style="font-size: large">Тут буде форма анкети учасника та інфа про те, шо дає реєстрація і шо дає волонтерство</p>
     </div>
 </section>
+<section class="container">
+    <form:form  modelAttribute="newParticipant" class="form-horizontal" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Долучитися</legend>
+
+            <form:errors path="*" cssClass="alert alert-danger" element="div"/>
+            <div class="form-group">
+                <label class="control-label col-lg-2 col-lg-2" for="participantName">Імя назові!</label>
+                <div class="col-lg-10">
+                    <form:input id="participantName" path="participantName" type="text" class="form:input-large"/>
+                    <form:errors path="participantName" cssClass="text-danger"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-lg-2" for="participantEmail">E-mail:</label>
+                <div class="col-lg-10">
+                    <form:input id="participantEmail" path="participantEmail" type="text" class="form:input-large"/>
+                    <form:errors path="participantEmail" cssClass="text-danger"/>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <input type="submit" id="btnAdd" class="btn btn-primary" value ="Підтвердити"/>
+                </div>
+            </div>
+
+        </fieldset>
+    </form:form>
+</section>
 
 </body>
 </html>
