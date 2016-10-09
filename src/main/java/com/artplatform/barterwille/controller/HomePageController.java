@@ -18,4 +18,9 @@ public class HomePageController {
         model.addAttribute("welcome",decoder.decode(decoder.labels.getString("home.welcome")));
         return "home";
     }
+
+    @RequestMapping("/home_tmp")
+    public String home_tmp(){
+        return "home_tmp";
+    }
 }
