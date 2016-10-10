@@ -8,7 +8,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <title>Barterwille hometown</title>
+    <title>Артисти</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -20,7 +20,7 @@
     <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo">
             <img src="<c:url value="/resources/images/logo.png"/>"
-             style="height: 75px;"     alt="logo" border="0"/>
+                 style="height: 75px;"     alt="logo" border="0"/>
         </a>
         <ul class="right hide-on-med-and-down" style="text-align: right">
             <li><a href="<spring:url value="/for_participants"/>" style="font-size: large">Учасникам</a></li>
@@ -34,7 +34,7 @@
             <li><a href="<spring:url value="/for_volunteers"/>" style="font-size: large">Волонтерам</a></li>
             <li><a href="<spring:url value="/about_us"/>" style="font-size: large">Про нас</a></li>
         </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Меню</i></a>
         <br/>
         <br/>
         <br/>
@@ -45,33 +45,128 @@
     <div class="section no-pad-bot">
         <div class="container">
             <br><br>
-            <h1 class="header center brown-text text-lighten-5">Barterwille art-fest</h1>
-            <div class="row center">
-                <h5 class="header col s12 light">Світ щасливих людей</h5>
-            </div>
-            <div class="row center">
-                <a href="http://materializecss.com/getting-started.html" id="download-button"
-                   class="btn-large waves-effect waves-light brown darken-4">Приєднатися</a>
-            </div>
+            <h1 class="header center brown-text text-lighten-5">Артисти</h1>
             <br><br>
         </div>
     </div>
     <br><br>
     <div class="parallax" style="width: auto"><img src="<c:url value="/resources/images/head_background.jpg"/>"
-                                                   style="bottom: -120px" alt="Background img 1"></div>
+                                                   style="bottom: -120px" alt="Background img 1"  ></div>
 </div>
 
 
-<div class="container" style="height: 500px;">
+<div class="container">
 
-    <div class="carousel" style="top: 10px">
-        <a class="carousel-item" href="#one!"><img src="<c:url value="/resources/photos/1.jpg"/>"></a>
-        <a class="carousel-item" href="#two!"><img src="<c:url value="/resources/photos/2.jpg"/>"></a>
-        <a class="carousel-item" href="#three!"><img src="<c:url value="/resources/photos/3.jpg"/>"></a>
-        <a class="carousel-item" href="#four!"><img src="<c:url value="/resources/photos/4.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/5.png"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/8.png"/>"></a>
+    <div class="section">
+
+        <!--   Card Section   -->
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/vosmoy.png"/>">
+                        <span class="card-title" style="font-weight: 900">Vosmoy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/fontaliza.png"/>">
+                        <span class="card-title">Fontaliza</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/amanda_palmer.png"/>">
+                        <span class="card-title">Amanda Palmer</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/benjamin_clementine.png"/>">
+                        <span class="card-title">Benjamin Clementine</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/paolo_nutini.png"/>">
+                        <span class="card-title">Paolo Nutini</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/dresden_dolls.png"/>">
+                        <span class="card-title">Dresden Dolls</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/amy_winehouse.png"/>">
+                        <span class="card-title">Amy Winehouse</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/snarky_puppy.png"/>">
+                        <span class="card-title">Snarky Puppy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/branford_marsalis.png"/>">
+                        <span class="card-title">Brandford Marsalis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/bjork.png"/>">
+                        <span class="card-title">Bjork</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/beatles.png"/>">
+                        <span class="card-title">Beatles</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="<c:url value="/resources/artists/nick_cave.png"/>">
+                        <span class="card-title">Nick Cave</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 
 </div>
 
@@ -130,7 +225,7 @@
             <div class="col l6 s12">
                 <h5 class="white-text">Як ми почали</h5>
                 <p class="grey-text text-lighten-4">Записки, чистки. Може якось і навпіл через ребро а як би не так!
-                Песочить комуняку на старую табакєрку, писати ножиці і весло сміялися. А потім якір за бугор
+                    Песочить комуняку на старую табакєрку, писати ножиці і весло сміялися. А потім якір за бугор
                     і трюм-топор сапог-кавьор!<br/>
                     Сапьор!<br/>
                     Скидай, коли б то не було - середні стиглі олігархи в твоє співатимуть окно. І полетіли інфрачорні,
