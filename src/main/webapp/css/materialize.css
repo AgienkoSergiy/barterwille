@@ -7633,7 +7633,7 @@ input[type=range]:focus::-ms-fill-upper {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 590px;
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
@@ -7681,10 +7681,9 @@ input[type=range]:focus::-ms-fill-upper {
 
 .carousel .carousel-item {
   display: none;
-  width: 200px;
-  height: 400px;
+  width: 600px;
+    height: auto;
   position: absolute;
-  top: 0;
   left: 0;
 }
 

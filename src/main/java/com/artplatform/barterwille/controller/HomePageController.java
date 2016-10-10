@@ -19,8 +19,4 @@ public class HomePageController {
         return "home";
     }
 
-    @RequestMapping("/home_tmp")
-    public String home_tmp(){
-        return "home_tmp";
-    }
 }
