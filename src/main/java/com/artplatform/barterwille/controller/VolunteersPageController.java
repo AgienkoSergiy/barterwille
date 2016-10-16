@@ -13,10 +13,10 @@ public class VolunteersPageController {
 
     @RequestMapping(value = "",method = RequestMethod.GET)
     public String mainInfo(@ModelAttribute("newVolunteer")VolunteerEntity volunteerEntity){
-        return "for_volunteers";
+        return "to_delete/for_volunteers";
     }
     @RequestMapping(value = "",method = RequestMethod.POST)
     public String processMainInfo(@ModelAttribute("newVolunteer")VolunteerEntity volunteerEntity){
-        return "for_volunteers";
+        return "to_delete/for_volunteers";
     }
 }

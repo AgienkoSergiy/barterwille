@@ -18,21 +18,20 @@
 <body>
 <nav class="white" role="navigation" style="height: 75px">
     <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">
+        <a id="logo-container" href="<spring:url value="/home"/>" class="brand-logo">
             <img src="<c:url value="/resources/images/logo.png"/>"
                  style="height: 75px;"     alt="logo" border="0"/>
         </a>
         <ul class="right hide-on-med-and-down" style="text-align: right">
-            <li><a href="<spring:url value="/for_participants"/>" style="font-size: large">Учасникам</a></li>
-            <li><a href="<spring:url value="/for_volunteers"/>" style="font-size: large">Волонтерам</a></li>
-            <li><a href="<spring:url value="/about_us"/>" style="font-size: large">Про нас</a></li>
+            <li><a href="<spring:url value="/artists"/>" style="font-size: large">Артисти</a></li>
+            <li><a href="<spring:url value="/for_visitors"/>" style="font-size: large">Відвідувачам</a></li>
+            <li><a href="<spring:url value="/contacts"/>" style="font-size: large">Контакти</a></li>
         </ul>
 
-
         <ul id="nav-mobile" class="side-nav">
-            <li><a href="<spring:url value="/for_participants"/>" style="font-size: large">Учасникам</a></li>
-            <li><a href="<spring:url value="/for_volunteers"/>" style="font-size: large">Волонтерам</a></li>
-            <li><a href="<spring:url value="/about_us"/>" style="font-size: large">Про нас</a></li>
+            <li><a href="<spring:url value="/artists"/>" style="font-size: large">Артисти</a></li>
+            <li><a href="<spring:url value="/for_visitors"/>" style="font-size: large">Відвідувачам</a></li>
+            <li><a href="<spring:url value="/contacts"/>" style="font-size: large">Контакти</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Меню</i></a>
         <br/>
@@ -180,43 +179,6 @@
         </div>
     </div>
     <div class="parallax"><img src="<c:url value="/resources/images/background_2.jpg"/>" alt="Unsplashed background img 2"></div>
-</div>
-
-<div class="container">
-    <div class="section">
-
-        <div class="row">
-            <div class="col s12 center">
-                <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4>Хто ми</h4>
-                <p class="left-align light">Организатор фестиваля – цыганский театр «Романс» представит зрителям
-                    фестиваля  свою новую творческую работу, созданную при финансовой поддержке фонда Сороса в Украине
-                    – фольклорную музыкальную комедию  «Женись, но только по любви».
-                    Не менее важными  событиями фестиваля, как всегда, будут выступления именитых цыганских
-                    исполнителей, представителей цыганских династий  и открытие молодых талантов  многогранной
-                    и красочной культуры  цыган Украины.
-                    Цыганские песни, зажигательные танцы, душевные романсы,  красочные костюмы,
-                    незабываемые голоса цыганских скрипок и гитар – все это праздник, который более 20 лет дарит
-                    зрителям  его основатель, художественный руководитель цыганского театра «Романс», артист театра
-                    и кино, общественный деятель,  народный артист Украины Игорь Крикунов.
-                </p>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
-<div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <div class="row center">
-                <h5 class="header col s12 darken-4">Переносиця шпалер за хвилеві колоконтурні ілюстрації амальгами,
-                    де весло копати мало не буває.</h5>
-            </div>
-        </div>
-    </div>
-    <div class="parallax"><img src="<c:url value="/resources/images/background_3.jpg"/>" alt="Unsplashed background img 3"></div>
 </div>
 
 <footer class="page-footer brown">
