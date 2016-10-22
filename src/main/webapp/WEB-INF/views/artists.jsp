@@ -25,13 +25,11 @@
         <ul class="right hide-on-med-and-down" style="text-align: right">
             <li><a href="<spring:url value="/artists"/>" style="font-size: large">Артисти</a></li>
             <li><a href="<spring:url value="/for_visitors"/>" style="font-size: large">Відвідувачам</a></li>
-            <li><a href="<spring:url value="/contacts"/>" style="font-size: large">Контакти</a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
             <li><a href="<spring:url value="/artists"/>" style="font-size: large">Артисти</a></li>
             <li><a href="<spring:url value="/for_visitors"/>" style="font-size: large">Відвідувачам</a></li>
-            <li><a href="<spring:url value="/contacts"/>" style="font-size: large">Контакти</a></li>
         </ul>
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Меню</i></a>
         <br/>
@@ -49,7 +47,7 @@
         </div>
     </div>
     <br><br>
-    <div class="parallax" style="width: auto"><img src="<c:url value="/resources/images/head_background.jpg"/>"
+    <div class="parallax" style="width: auto"><img src="<c:url value="/resources/images/background_1.jpg"/>"
                                                    style="bottom: -120px" alt="Background img 1"  ></div>
 </div>
 
@@ -64,7 +62,7 @@
                 <div class="card">
                     <div class="card-image">
                         <img src="<c:url value="/resources/artists/vosmoy.png"/>">
-                        <span class="card-title" style="font-weight: 900">Vosmoy</span>
+                        <span class="card-title">Vosmoy</span>
                     </div>
                 </div>
             </div>

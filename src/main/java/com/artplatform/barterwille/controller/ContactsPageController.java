@@ -8,7 +8,7 @@ public class ContactsPageController {
 
     @RequestMapping("/contacts")
     public String contacts(){
-        return "contacts";
+        return "to_delete/contacts";
     }
 
 }

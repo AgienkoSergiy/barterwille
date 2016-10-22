@@ -19,35 +19,42 @@
 <body>
 <!-- Navigation bar -->
 <nav class="white" role="navigation">
-        <a href="<spring:url value="/home"/>" class="left brand-logo hide-on-med-and-down" style="margin-left:80px">
-            <img src="<c:url value="/resources/images/logo_min_wb.jpg"/>" style="height: 75px; cursor: pointer"
+        <a href="<spring:url value="/home"/>"
+           class="left brand-logo hide-on-med-and-down" style="margin-left:11%; margin-top: 12px">
+            <img src="<c:url value="/resources/images/logo_small_wb.png"/>" style="height: 50px; cursor: pointer"
                                                                                          alt="logo" border="0"/>
         </a>
     <div class="nav-wrapper container">
         <ul class="left hide-on-med-and-down">
             <li><a href="<spring:url value="/artists"/>" style="font-size: large">Артисти</a></li>
             <li><a href="<spring:url value="/for_visitors"/>" style="font-size: large">Відвідувачам</a></li>
-            <li><a href="<spring:url value="/contacts"/>" style="font-size: large">Контакти</a></li>
         </ul>
         <div class="social right hide-on-med-and-down">
             <a href="https://vk.com/bafmain"><i id="vk" class="icon-vk"></i></a>
             <a href="https://www.facebook.com/groups/BARTERWILLE/"><i id="facebook" class="icon-facebook"></i></a>
+            <a href="#!"><i id="twitter" class="icon-twitter"></i></a> <!--todo add twitter link-->
         </div>
 
         <ul id="nav-mobile" class="side-nav">
+            <li><a href="<spring:url value="/home"/>" style="height: 100px"><img src="<c:url value="/resources/images/logo_side_bar.png"/>"
+                                                                  style="width: 100%; cursor: pointer; margin-top: 25px"
+                                                                  alt="logo" border="0"/></a>
+            </li>
             <li><a href="<spring:url value="/artists"/>" style="font-size: large">Артисти</a></li>
             <li><a href="<spring:url value="/for_visitors"/>"style="font-size: large">Відвідувачам</a></li>
-            <li><a href="<spring:url value="/contacts"/>"style="font-size: large">Контакти</a></li>
             <li><a href="https://vk.com/bafmain" style="font-size: large">
                 Долучитися<i class="icon-vk" style="margin-left: 15px"></i></a>
             </li>
             <li><a href="https://www.facebook.com/groups/BARTERWILLE/" style="font-size: large">
                 Приєднатися<i class="icon-facebook" style="margin-left: 15px"></i></a>
             </li>
+            <li><a href="#!" style="font-size: large">
+                Підписатися<i class="icon-twitter" style="margin-left: 15px"></i></a> <!--todo add twitter link-->
+            </li>
         </ul>
         <a data-activates="nav-mobile" class="button-collapse">
-            <img src="<c:url value="/resources/images/logo_min_wb.jpg"/>"
-                 style="height: 75px; cursor: pointer"     alt="logo" border="0"/>
+            <img src="<c:url value="/resources/images/logo_small_wb.png"/>"
+                 style="height: 50px; cursor: pointer; margin-top: 12px" alt="logo" border="0"/>
         </a>
     </div>
 </nav>
@@ -62,33 +69,33 @@
         </div>
     </div>
     <br><br>
-    <div class="parallax" style="width: 100%"><img src="<c:url value="/resources/images/head_background.jpg"/>"
-                                                   style="bottom: -120px;"
+    <div class="parallax"><img src="<c:url value="/resources/images/background_1.jpg"/>"
+                                                   style="margin-top: 75px; width: 100%; min-width: 600px;"
                                                    alt="Background img 1"></div>
 </div>
 
 <!-- Photos section -->
 <div class="container" style="height: 500px;">
 
-    <div class="carousel" style="top: 20px"> <!--todo make them small-->
-        <a class="carousel-item" href="#one!"><img src="<c:url value="/resources/photos/1.jpg"/>"></a>
-        <a class="carousel-item" href="#two!"><img src="<c:url value="/resources/photos/2.jpg"/>"></a>
-        <a class="carousel-item" href="#three!"><img src="<c:url value="/resources/photos/3.jpg"/>"></a>
-        <a class="carousel-item" href="#four!"><img src="<c:url value="/resources/photos/4.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/5.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/6.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/7.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/8.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/9.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/10.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/11.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/12.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/13.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/14.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/15.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/16.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/17.jpg"/>"></a>
-        <a class="carousel-item" href="#five!"><img src="<c:url value="/resources/photos/18.jpg"/>"></a>
+    <div class="carousel" style="top: 20px"> <!--todo make it enlargeable-->
+        <a class="carousel-item" href="#one!"><img  src="<c:url value="/resources/photos/1.jpg"/>"></a>
+        <a class="carousel-item" href="#two!"><img  src="<c:url value="/resources/photos/2.jpg"/>"></a>
+        <a class="carousel-item" href="#three!"><img  src="<c:url value="/resources/photos/3.jpg"/>"></a>
+        <a class="carousel-item" href="#four!"><img  src="<c:url value="/resources/photos/4.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/5.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/6.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/7.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/8.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/9.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/10.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/11.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/12.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/13.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/14.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/15.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/16.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/17.jpg"/>"></a>
+        <a class="carousel-item" href="#five!"><img  src="<c:url value="/resources/photos/18.jpg"/>"></a>
     </div>
 
 </div>
@@ -98,12 +105,12 @@
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">Фестиваль мистецтва у його можливих проявах</h5>
+                <h5 class="white-on-white">Фестиваль мистецтва у його можливих проявах</h5>
             </div>
         </div>
     </div>
     <div class="parallax"><img src="<c:url value="/resources/images/background_2.jpg"/>"
-                              style="width: 100%;" alt="background img 2"></div>
+                              style="width: 100%;" alt="Background img 2"></div>
 </div>
 
 <div class="container">
@@ -135,12 +142,12 @@
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 darken-4">Переносиця шпалер за хвилеві колоконтурні ілюстрації амальгами,
+                <h5 class="white-on-white">Переносиця шпалер за хвилеві колоконтурні ілюстрації амальгами,
                     де весло копати мало не буває.</h5>
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="<c:url value="/resources/images/background_3.jpg"/>" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="<c:url value="/resources/images/background_3.jpg"/>" alt="Background img 3"></div>
 </div>
 
 <footer class="page-footer" style="background: url(<c:url value="/resources/images/footer.jpg"/>)">
@@ -154,11 +161,9 @@
                     Сапьор!<br/>
                     Скидай, коли б то не було - середні стиглі олігархи в твоє співатимуть окно. І полетіли інфрачорні,
                     колись не згадані качки, а ти на марлю згустком моркви: хлабись! - і яблоко в очки...</p>
-
-
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Пчолки</h5>
+                <h5 class="white-text">Організатори</h5>
                 <ul>
                     <li><a class="white-text" href="#!">Маша</a></li>
                     <li><a class="white-text" href="#!">Даша</a></li>
@@ -167,12 +172,12 @@
                 </ul>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Пахлава</h5>
+                <h5 class="white-text">Партнери</h5>
                 <ul>
-                    <li><a class="white-text" href="#!">Сладкая</a></li>
-                    <li><a class="white-text" href="#!">Сальоная</a></li>
-                    <li><a class="white-text" href="#!">Синяя</a></li>
-                    <li><a class="white-text" href="#!">Зельоная</a></li>
+                    <li><a class="white-text" href="#!">Микола</a></li>
+                    <li><a class="white-text" href="#!">Василь</a></li>
+                    <li><a class="white-text" href="#!">Петро</a></li>
+                    <li><a class="white-text" href="#!">Сємьоновна</a></li>
                 </ul>
             </div>
         </div>

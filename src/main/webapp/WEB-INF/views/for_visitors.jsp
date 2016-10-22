@@ -49,7 +49,7 @@
         </div>
     </div>
     <br><br>
-    <div class="parallax" style="width: auto"><img src="<c:url value="/resources/images/head_background.jpg"/>"
+    <div class="parallax" style="width: auto"><img src="<c:url value="/resources/images/background_1.jpg"/>"
                                                    style="bottom: -120px" alt="Background img 1"></div>
 </div>
 
