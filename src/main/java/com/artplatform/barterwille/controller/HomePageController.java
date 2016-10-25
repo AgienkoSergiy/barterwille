@@ -18,4 +18,5 @@ public class HomePageController {
         model.addAttribute("welcome",decoder.decode(decoder.labels.getString("home.welcome")));
         return "home";
     }
+
 }
