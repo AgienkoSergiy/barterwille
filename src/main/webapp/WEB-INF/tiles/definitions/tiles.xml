@@ -20,5 +20,10 @@
         <put-attribute name="body" value="/WEB-INF/views/artists.jsp"/>
     </definition>
 
+    <definition name="for_visitors" extends="baseLayout">
+        <put-attribute name="title" value="Відвідувачам"/>
+        <put-attribute name="body" value="/WEB-INF/views/for_visitors.jsp"/>
+    </definition>
+
 
 </tiles-definitions>

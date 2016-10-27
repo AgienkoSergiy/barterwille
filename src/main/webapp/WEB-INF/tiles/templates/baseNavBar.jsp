@@ -1,6 +1,8 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@page contentType="text/html; charset=Windows-1251"%>
 
+
+<!--todo make its hight in %-->
 <nav class="white" role="navigation">
     <a href="<spring:url value="/home"/>"
        class="left brand-logo hide-on-med-and-down" style="margin-left:11%; margin-top: 12px">

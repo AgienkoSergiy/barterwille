@@ -6,7 +6,7 @@
 
 
 
-<div id="index-banner" class="parallax-container" style="height: 400px;">
+<div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
         <div class="row right">
             <a href="<spring:url value="/home"/>" >
@@ -14,6 +14,9 @@
                      style=" margin-right: 10px; margin-top: 10px; max-width: 100%; height: auto;"
                      alt="logo" border="0"/>
             </a>
+            <br><br>
+            <h1 class="header-white-on-white right"></h1>
+            <br><br>
         </div>
     </div>
     <br><br>
@@ -45,7 +48,6 @@
         <a class="carousel-item" href="#five!"><img  src="resources/photos/18.jpg"></a>
     </div>
 </div>
-
 
 <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">

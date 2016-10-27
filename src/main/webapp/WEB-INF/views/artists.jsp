@@ -2,10 +2,8 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@page contentType="text/html; charset=Windows-1251"%>
 
-<div id="index-banner" class="parallax-container">
 
-    <div class="parallax" style="width: auto"><img src="resources/images/background_1.jpg"
-                                                   style="bottom: -120px" alt="Background img 1"  ></div>
+<div id="index-banner" class="parallax-container" style="height: 400px;">
     <div class="section no-pad-bot">
         <div class="row right">
             <a href="<spring:url value="/home"/>" >
@@ -14,18 +12,18 @@
                      alt="logo" border="0"/>
             </a>
             <br><br>
-            <h1 class="header-white-on-white right">АРТИСТИ</h1>
+            <h1 class="header-white-on-white right">Артисти</h1>
             <br><br>
         </div>
     </div>
     <br><br>
+    <div class="parallax"><img src="resources/images/background_1.jpg"
+                               style="margin-top: 75px; width: 100%; min-width: 600px;"
+                               alt="Background img 1"></div>
 </div>
 
-
-<div class="container">
-
+<div class="container"> <!--todo iterate it-->
     <div class="section">
-
         <!--   Artists Section   -->
         <div class="row">
             <div class="col s12 m4">
@@ -52,7 +50,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="row">
             <div class="col s12 m4">
@@ -133,20 +130,18 @@
             </div>
         </div>
     </div>
-
-
 </div>
 
-
-<div class="parallax-container valign-wrapper"> <!-- todo add parallaxes to tiles-->
+<div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
         <div class="container">
             <div class="row center">
-                <h5 class="header col s12 light">Фестиваль мистецтва у його можливих проявах</h5>
+                <h5 class="white-on-white">Фестиваль мистецтва у його можливих проявах</h5>
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="resources/images/background_2.jpg" alt="Background img 2"></div>
+    <div class="parallax"><img src="resources/images/background_2.jpg"
+                               style="width: 100%; min-width: 600px;" alt="Background img 2"></div>
 </div>
 
 
