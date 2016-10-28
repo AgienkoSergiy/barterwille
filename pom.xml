@@ -16,7 +16,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>${springversion}</version>
+            <version>${spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -50,10 +50,19 @@
             <version>5.1.34</version>
         </dependency>
 
+        <!-- Apache Tiles -->
+        <dependency>
+            <groupId>org.apache.tiles</groupId>
+            <artifactId>tiles-extras</artifactId>
+            <version>${apachetiles.version}</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
-        <springversion>4.3.2.RELEASE</springversion>
+        <spring.version>4.3.2.RELEASE</spring.version>
+        <apachetiles.version>3.0.5</apachetiles.version>
+
     </properties>
 
 
