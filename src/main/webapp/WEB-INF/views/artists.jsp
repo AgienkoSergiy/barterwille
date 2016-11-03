@@ -7,8 +7,8 @@
     <div class="section no-pad-bot">
         <div class="row right">
             <a href="<spring:url value="/home"/>" >
-                <img src="resources/images/logo.png"
-                     style=" margin-right: 10px; margin-top: 10px; max-width: 100%; height: auto;"
+                <img src="resources/images/logo_no_backgr.png" class="right"
+                     style=" margin-right: 5%; margin-top: 10px; max-width: 80%; height: auto;"
                      alt="logo" border="0"/>
             </a>
             <br><br>
@@ -17,7 +17,7 @@
         </div>
     </div>
     <br><br>
-    <div class="parallax"><img src="resources/images/background_1.jpg"
+    <div class="parallax"><img src="resources/images/artists_backgr_1.jpg"
                                style="margin-top: 75px; width: 100%; min-width: 600px;"
                                alt="Background img 1"></div>
 </div>
@@ -140,7 +140,7 @@
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="resources/images/background_2.jpg"
+    <div class="parallax"><img src="resources/images/artists_backgr_2.jpg"
                                style="width: 100%; min-width: 600px;" alt="Background img 2"></div>
 </div>
 

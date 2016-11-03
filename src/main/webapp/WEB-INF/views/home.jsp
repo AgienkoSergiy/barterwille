@@ -10,8 +10,9 @@
     <div class="section no-pad-bot">
         <div class="row right">
             <a href="<spring:url value="/home"/>" >
-                <img src="resources/images/logo.png"
-                     style=" margin-right: 10px; margin-top: 10px; max-width: 100%; height: auto;"
+                <!--todo create class "logo-img"-->
+                <img src="resources/images/logo_no_backgr.png" class="right"
+                     style=" margin-right: 5%; margin-top: 10px; max-width: 80%; height: auto;"
                      alt="logo" border="0"/>
             </a>
             <br><br>
@@ -25,6 +26,11 @@
                                alt="Background img 1"></div>
 </div>
 
+
+<div class="container center">
+    <h1>Ось тут чогось вкрай не вистачає</h1>
+    <p>Хай йому грець!<br>Дідько його бери!<br>Холєра!</p>
+</div>
 <!-- Photos section -->
 <div class="container" style="height: 550px;">
     <div class="carousel" style="top: 20px"> <!--todo remake it-->
