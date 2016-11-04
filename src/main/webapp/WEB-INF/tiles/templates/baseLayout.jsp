@@ -10,11 +10,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <title><tiles:getAsString name="title" /></title>
         <!-- CSS  -->
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"/> <!--todo make static -->
-        <link rel="stylesheet" href="css/normalize.css"/>
+        <link href="css/font-awesome.css" rel="stylesheet"/>
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-        <script src="js/prefixfree.min.js"></script>
     </head>
     <body>
 

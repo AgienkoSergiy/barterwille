@@ -1,14 +1,9 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
-    $(document).ready(function(){
+      $('.button-collapse').sideNav();
+      $('.parallax').parallax();
+      $('.modal').modal();
       $('.carousel').carousel();
-    });
-    $(document).ready(function(){
-      $('ul.tabs').tabs();
-    });
-
   }); // end of document ready
 })(jQuery); // end of jQuery name space

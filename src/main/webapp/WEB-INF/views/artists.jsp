@@ -29,8 +29,40 @@
             <div class="col s12 m4">
                 <div class="card">
                     <div class="card-image">
-                        <img src="resources/artists/vosmoy.png">
-                        <span class="card-title">Vosmoy</span>
+                        <a class="modal-trigger waves-effect" href="#modal1">
+                            <img src="resources/artists/vosmoy.png">
+                            <span class="card-title">Vosmoy</span>
+                        </a>
+                    </div>
+                    <div id="modal1" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                            <h4>Vosmoy</h4>
+                            <p>Антон 8th Восьмой во многом примечательная фигура в современной рок-музыке.
+                                Своими силами записав пару лет назад демо-альбом с потрясающим материалом,
+                                он с лёгкостью завоевал множество почитателей и заставил весь Рунет задаваться
+                                вопросом: «Кто такой этот “Восьмой”?»<br>
+
+                                Классический гранж в его песнях сливается с бешеным драйвом, а эмоциональная
+                                насыщенность вокала даёт фору большинству рок-вокалистов. Профессионализм,
+                                с которым исполнены все песни на альбоме, заставляет по-настоящему поразиться тому,
+                                насколько исключителен талант Антона.<br>
+
+                                Пока его песни облетали Интернет, селились у пользователей в ЖЖ и скакали со
+                                стенки на стенку Вконтакте, сам Антон не сидел на месте: в родной Перми он
+                                нашел единомышленников и создал группу «8 Tripping Horses». Вместе они
+                                перебрались в 2009 году в Москву, где успели зарекомендовать себя как чрезвычайно
+                                интересный проект, выступив на совершенно разных площадках: от «Проекта ОГИ»
+                                и «Солянки» до пикника «Афиши» и рок-фестивалей.<br>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#!" class="modal-action modal-close waves-effect waves-yellow btn-flat ">Закрити</a>
+                            <div class="social">
+                                <a href="https://vk.com/8osmoy"><i class="fa fa-vk"></i></a>
+                                <a href="https://www.facebook.com/8vosmoy8/"><i class="fa fa-facebook-square"></i></a>
+                                <a href="http://vosmoy.bandcamp.com/"><i class="fa fa-bandcamp"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,7 +162,9 @@
             </div>
         </div>
     </div>
+
 </div>
+
 
 <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">

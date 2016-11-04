@@ -14,10 +14,10 @@
             <li><a href="<spring:url value="/artists"/>" style="font-size: large">АРТИСТИ</a></li>
             <li><a href="<spring:url value="/for_visitors"/>" style="font-size: large">ВІДВІДУВАЧАМ</a></li>
         </ul>
-        <div class="social right hide-on-med-and-down">
-            <a href="https://vk.com/barterwille"><i id="vk" class="icon-vk"></i></a>
-            <a href="https://www.facebook.com/groups/BARTERWILLE/"><i id="facebook" class="icon-facebook"></i></a>
-            <a href="#!"><i id="twitter" class="icon-twitter"></i></a> <!--todo add twitter link-->
+        <div class="social right hide-on-med-and-down" >
+            <a href="https://vk.com/barterwille"><i id="vk" class="fa fa-vk" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/groups/BARTERWILLE/"><i id="facebook" class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="#!"><i id="twitter" class="fa fa-twitter-square" aria-hidden="true"></i></a> <!--todo add twitter link-->
         </div>
 
         <ul id="nav-mobile" class="side-nav">
@@ -28,13 +28,13 @@
             <li><a href="<spring:url value="/artists"/>" style="font-size: large">Артисти</a></li>
             <li><a href="<spring:url value="/for_visitors"/>" style="font-size: large">Відвідувачам</a></li>
             <li><a href="https://vk.com/barterwille" style="font-size: large">
-                Долучитися<i class="icon-vk" style="margin-left: 15px"></i></a>
+                Долучитися<i class="fa fa-vk" style="margin-left: 15px"></i></a>
             </li>
             <li><a href="https://www.facebook.com/groups/BARTERWILLE/" style="font-size: large">
-                Приєднатися<i class="icon-facebook" style="margin-left: 15px"></i></a>
+                Приєднатися<i class="fa fa-facebook-square" style="margin-left: 15px"></i></a>
             </li>
             <li><a href="#!" style="font-size: large">
-                Підписатися<i class="icon-twitter" style="margin-left: 15px"></i></a> <!--todo add twitter link-->
+                Підписатися<i class="fa fa-twitter-square" style="margin-left: 15px"></i></a> <!--todo add twitter link-->
             </li>
         </ul>
         <a data-activates="nav-mobile" class="button-collapse">
@@ -42,4 +42,5 @@
                  style="height: 50px; cursor: pointer; margin-top: 12px" alt="logo" border="0"/>
         </a>
     </div>
+
 </nav>

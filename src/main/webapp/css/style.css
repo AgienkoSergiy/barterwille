@@ -45,6 +45,12 @@ p {
   }
 }
 
+.carousel {
+  height: 800px;
+}
+.carousel .carousel-item {
+  width: 600px;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -91,8 +97,20 @@ nav {
   background-color: #795548;
   height: 75px;
   line-height: 75px;
+
 }
 
+nav i.material-icons {
+  font-size: 2rem;
+
+}
+
+@media only screen and (min-width: 601px) {
+     nav .nav-wrapper i {
+        height: 50px;
+        line-height: 50px;
+    }
+}
  /*social buttons*/
 .social {
   text-align: center;
@@ -107,8 +125,9 @@ nav {
 .social i {
   margin: .3em;
   cursor: pointer;
-  transition: color 300ms ease, margin-top 300ms ease;
+  transition: none;
   transform: translateZ(0);
+  font-size: 35px;
 }
 .social i:hover {
   margin-top: -1px;
