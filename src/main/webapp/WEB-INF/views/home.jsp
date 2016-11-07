@@ -4,16 +4,12 @@
 <%@page contentType="text/html; charset=Windows-1251"%>
 
 
-
-
+<!--Top parallax-->
 <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
         <div class="row right">
-            <a href="<spring:url value="/home"/>" >
-                <!--todo create class "logo-img"-->
-                <img src="resources/images/logo_no_backgr.png" class="right"
-                     style=" margin-right: 5%; margin-top: 10px; max-width: 80%; height: auto;"
-                     alt="logo" border="0"/>
+            <a href="<spring:url value="/home"/>" class="logo" >
+                <img src="resources/images/logo_no_backgr.png" class="right" alt="logo" border="0"/>
             </a>
             <br><br>
             <h1 class="header-white-on-white right"></h1>
@@ -22,11 +18,48 @@
     </div>
     <br><br>
     <div class="parallax"><img src="resources/images/background_1.jpg"
-                               style="margin-top: 75px; width: 100%; min-width: 600px;"
+                               style="margin-top: 75px;"
                                alt="Background img 1"></div>
 </div>
 
+<!--Main info-->
+<div class="container">
+    <div class="section">
+        <div class="row">
+            <div class="col s12 center">
+                <h3><i class="mdi-content-send brown-text"></i></h3>
+                <h4>Хто ми</h4>
+                <p class="left-align light">Организатор фестиваля – цыганский театр «Романс» представит зрителям
+                    фестиваля  свою новую творческую работу, созданную при финансовой поддержке фонда Сороса в Украине
+                    – фольклорную музыкальную комедию  «Женись, но только по любви».
+                    Не менее важными  событиями фестиваля, как всегда, будут выступления именитых цыганских
+                    исполнителей, представителей цыганских династий  и открытие молодых талантов  многогранной
+                    и красочной культуры  цыган Украины.
+                    Цыганские песни, зажигательные танцы, душевные романсы,  красочные костюмы,
+                    незабываемые голоса цыганских скрипок и гитар – все это праздник, который более 20 лет дарит
+                    зрителям  его основатель, художественный руководитель цыганского театра «Романс», артист театра
+                    и кино, общественный деятель,  народный артист Украины Игорь Крикунов.
+                </p>
+            </div>
+        </div>
 
+    </div>
+</div>
+
+<!--Middle parallax-->
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h5 class="white-on-white">Фестиваль мистецтва у його можливих проявах</h5>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"><img src="resources/images/background_2.jpg"
+                                alt="Background img 2"></div>
+</div>
+
+<!--Media-->
 <div class="container center">
     <h1>Ось тут чогось вкрай не вистачає</h1>
     <p>Хай йому грець!<br>Дідько його бери!<br>Холєра!</p>
@@ -55,42 +88,7 @@
     </div>
 </div>
 
-<div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <div class="row center">
-                <h5 class="white-on-white">Фестиваль мистецтва у його можливих проявах</h5>
-            </div>
-        </div>
-    </div>
-    <div class="parallax"><img src="resources/images/background_2.jpg"
-                               style="width: 100%; min-width: 600px;" alt="Background img 2"></div>
-</div>
-
-<div class="container">
-    <div class="section">
-        <div class="row">
-            <div class="col s12 center">
-                <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4>Хто ми</h4>
-                <p class="left-align light">Организатор фестиваля – цыганский театр «Романс» представит зрителям
-                    фестиваля  свою новую творческую работу, созданную при финансовой поддержке фонда Сороса в Украине
-                    – фольклорную музыкальную комедию  «Женись, но только по любви».
-                    Не менее важными  событиями фестиваля, как всегда, будут выступления именитых цыганских
-                    исполнителей, представителей цыганских династий  и открытие молодых талантов  многогранной
-                    и красочной культуры  цыган Украины.
-                    Цыганские песни, зажигательные танцы, душевные романсы,  красочные костюмы,
-                    незабываемые голоса цыганских скрипок и гитар – все это праздник, который более 20 лет дарит
-                    зрителям  его основатель, художественный руководитель цыганского театра «Романс», артист театра
-                    и кино, общественный деятель,  народный артист Украины Игорь Крикунов.
-                </p>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
+<!--Bottom parallax-->
 <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
         <div class="container">
@@ -100,8 +98,7 @@
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="resources/images/background_3.jpg" alt="Background img 3"
-                               style="width: 100%; min-width: 600px;"></div>
+    <div class="parallax"><img src="resources/images/background_3.jpg" alt="Background img 3"></div>
 </div>
 
 

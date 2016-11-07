@@ -2,7 +2,7 @@
 <%@page contentType="text/html; charset=Windows-1251"%>
 
 
-<!--todo make its hight in %-->
+<!--todo make its height in %-->
 <nav class="white" role="navigation">
     <a href="<spring:url value="/home"/>"
        class="left brand-logo hide-on-med-and-down" style="margin-left:11%; margin-top: 12px">
@@ -17,7 +17,7 @@
         <div class="social right hide-on-med-and-down" >
             <a href="https://vk.com/barterwille"><i id="vk" class="fa fa-vk" aria-hidden="true"></i></a>
             <a href="https://www.facebook.com/groups/BARTERWILLE/"><i id="facebook" class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="#!"><i id="twitter" class="fa fa-twitter-square" aria-hidden="true"></i></a> <!--todo add twitter link-->
+            <a href="https://twitter.com/BARTERWILLE"><i id="twitter" class="fa fa-twitter-square" aria-hidden="true"></i></a>
         </div>
 
         <ul id="nav-mobile" class="side-nav">
@@ -33,8 +33,8 @@
             <li><a href="https://www.facebook.com/groups/BARTERWILLE/" style="font-size: large">
                 Приєднатися<i class="fa fa-facebook-square" style="margin-left: 15px"></i></a>
             </li>
-            <li><a href="#!" style="font-size: large">
-                Підписатися<i class="fa fa-twitter-square" style="margin-left: 15px"></i></a> <!--todo add twitter link-->
+            <li><a href="https://twitter.com/BARTERWILLE" style="font-size: large">
+                Підписатися<i class="fa fa-twitter-square" style="margin-left: 15px"></i></a>
             </li>
         </ul>
         <a data-activates="nav-mobile" class="button-collapse">

@@ -1,4 +1,3 @@
-<!-- todo format it and make collapsible-->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@page contentType="text/html; charset=Windows-1251"%>
@@ -18,7 +17,7 @@
     </div>
     <br><br>
     <div class="parallax"><img src="resources/images/visitors_backgr_1.jpg"
-                               style="margin-top: 75px; width: 100%; min-width: 600px;"
+                               style="margin-top: 75px;"
                                alt="Background img 1"></div>
 </div>
 
@@ -31,10 +30,10 @@
     <br><br>
     <ul class="collapsible popout" data-collapsible="accordion">
         <li>
-            <div class="collapsible-header"><i class="icon-home"></i>Проживання</div>
+            <div class="collapsible-header"><i class="fa fa-home" aria-hidden="true"></i>Проживання</div>
             <div class="collapsible-body container">
                     <br><br>
-                    <h1>НАМЕТОВЕ МІСТЕЧКО</h1>
+                    <h1>Наметове містечко</h1>
                     <br>
                     <p>На території фестивалю діє наметове містечко, де зможе розміститись кожен охочий.
                         В таборі ви знайдете все необхідне для комфортного відпочинку: туалети, воду, дрова.<br><br>
@@ -62,7 +61,7 @@
             </div>
         </li>
         <li>
-            <div class="collapsible-header"><i class="icon-food"></i>Харчування</div>
+            <div class="collapsible-header"><i class="fa fa-cutlery" aria-hidden="true"></i>Харчування</div>
             <div class="collapsible-body container">
 
                 <h1>Їжа на фестивалі</h1><br><br>
@@ -76,13 +75,13 @@
             </div>
         </li>
         <li>
-            <div class="collapsible-header"><i class="icon-list-ul"></i>Розклад</div>
+            <div class="collapsible-header"><i class="fa fa-list-ul" aria-hidden="true"></i>Розклад</div>
             <div class="collapsible-body container"><p>Розклад буде оголошено такого-то такого-то</p>
                 <img src="<c:url value="/resources/images/schedule.png"/>" style="width: 50%"/>
             </div>
         </li>
         <li>
-            <div class="collapsible-header"><i class="icon-road"></i>Як дістатися</div>
+            <div class="collapsible-header"><i class="fa fa-road" aria-hidden="true"></i>Як дістатися</div>
             <div class="collapsible-body container">
                 <br><br>
                 <h1>Як до нас доїхати</h1>
@@ -105,7 +104,7 @@
             </div>
         </li>
         <li>
-            <div class="collapsible-header"><i class="icon-puzzle-piece"></i>Мапа</div>
+            <div class="collapsible-header"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Мапа</div>
             <div class="collapsible-body container">
                 <br>
                 <h1>Мапа фесту</h1>
@@ -115,15 +114,15 @@
             </div>
         </li>
         <li>
-            <div class="collapsible-header"><i class="icon-question-sign"></i>FAQ</div>
+            <div class="collapsible-header"><i class="fa fa-question-circle" aria-hidden="true"></i>FAQ</div>
             <div class="collapsible-body container">
                 <h2>Коли і де відбудеться феcтиваль?</h2>
-                <div class="lampText">
+                <div>
                     <p>Zaxidfest  відбудеться 19-21 серпня 2016 року на території відпочинкового комплексу Чарівна долина в с. Родатичі Львівської області.</p>
                 </div>
 
                 <h2>Де жити на фестивалі?</h2>
-                <div class="lampText">
+                <div>
                     <p>Проживання на фестивалі тільки на територіях наметових містечок- нагадуємо, ПОПЕРЕДЖАЄМО, що це ПОЛЬОВІ УМОВИ, тому для тих, хто звик до домашнього комфорту, буде складно без всіх благ цивілізації. Тому Ви можете жити в місті в готелях і приїзжати кожного дня на фестиваль. На території фестивалю розміщати намети можна лише на території Платного наметового містечка. У всіх інших місцях на території фестивалю заборонено розміщення наметів!  У наметовому містечку буде можливість жити, як у власному наметі, так і взяти намети на прокат. Вхід в наметове через  через КПП. Платне наметове - це ділянка,  на якій пропонується розміщати намети, тобто це додаткова платна послуга, яку пропонують як альтернативу. Умови в платному наметовому- рівна огороджена ділянка, душі, туалети, освітлення, охорона, дрова,  питна вода з бочок. </p>
                     <p>У вартість абонементу в платне наметове входить:</p>
                     <p>- багаторазовий вхід-вихід на територію платного наметового містечка;</p>
@@ -266,6 +265,6 @@
         </div>
     </div>
     <div class="parallax"><img src="resources/images/visitors_backgr_2.jpg"
-                               style="width: 100%; min-width: 600px;" alt="Background img 2"></div>
+                                alt="Background img 2"></div>
 </div>
 

@@ -15,6 +15,13 @@ p {
   line-height: 2rem;
 }
 
+.logo img{
+  margin-right: 5%;
+  margin-top: 10px;
+  max-width: 80%;
+  height: auto
+}
+
 .button-collapse {
   color: #612525;
 }
@@ -25,9 +32,15 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section{
+  width:100%;
+}
+
+.parallax img{
+  width: 100%;
+  min-width: 600px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -141,6 +154,29 @@ nav i.material-icons {
 .social i#twitter:hover {
   color: #1da1f2;
 }
+.social i#bandcamp:hover {
+  color: #408ea3;
+}
+
+.social i#soundcloud:hover {
+  color: #f50;
+}
+.social i#youtube:hover {
+  color: #cc181e;
+}
+
+.social i#instagram:hover {
+  color: #C42575;
+}
+
+i#close {
+    color: #555;
+    font-size: 35px;
+    margin: 10px;
+}
+i#close:hover {
+    color: #d44950;
+}
 .side-nav {
     width: 250px;
 }
@@ -150,3 +186,11 @@ nav i.material-icons {
   float: none;
 }
 
+.modal .modal-footer {
+    text-align: left;
+    height: 65px;
+}
+.modal .modal-content img{
+  width:100%;
+  height: auto;
+}
