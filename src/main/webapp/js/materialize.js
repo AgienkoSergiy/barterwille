@@ -7324,6 +7324,7 @@ Picker.extend( 'pickadate', DatePicker )
 }( jQuery ));
 ;(function ($) {
 
+    //carousel
   var methods = {
 
     init : function(options) {
@@ -7383,6 +7384,7 @@ Picker.extend( 'pickadate', DatePicker )
         offset = target = 0;
         images = [];
         item_width = view.find('.carousel-item').first().innerWidth();
+          item_height = view.find('.carousel-item').first().innerHeight();
         dim = item_width * 2 + options.padding;
 
         view.find('.carousel-item').each(function (i) {
@@ -7459,7 +7461,7 @@ Picker.extend( 'pickadate', DatePicker )
 
           if (!options.full_width) {
             alignment = 'translateX(' + (view[0].clientWidth - item_width) / 2 + 'px) ';
-            alignment += 'translateY(' + (view[0].clientHeight - item_width) / 2 + 'px)';
+            //alignment += 'translateY(' + (view[0].clientHeight - item_height)/2  + 'px)'; //todo save when updated
           } else {
             alignment = 'translateX(0)';
           }
@@ -7774,5 +7776,19 @@ Picker.extend( 'pickadate', DatePicker )
       } else {
         $.error( 'Method ' +  methodOrOptions + ' does not exist on jQuery.carousel' );
       }
-    }; // Plugin end
+    };
+
+
+    $(function(){
+        var view = $(this);
+        var image_height = view.find('.carousel-item').first().innerHeight();
+        $('.carousel-container').height(image_height+50);
+        $('.carousel').height(image_height+50);
+
+        $(window).resize(function(){
+            $('.carousel-container').height(image_height+50);
+            $('.carousel').height(image_height+50);
+            location.href = self.location; //todo make div reload
+        });
+    });// Plugin end
 }( jQuery ));

@@ -59,11 +59,31 @@ p {
 }
 
 .carousel {
-  height: 800px;
+  overflow-y:visible;
+  height: 550px;
 }
 .carousel .carousel-item {
-  width: 600px;
+  width: 90%;
+  max-width: 900px;
+  height: auto;
 }
+
+.carousel-container{
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.arrows i{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 50%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: white;
+    font-size: 25px;
+    display: inline;
+}
+
 .icon-block {
   padding: 0 15px;
 }

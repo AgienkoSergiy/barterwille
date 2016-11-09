@@ -65,26 +65,31 @@
     <p>Õאי ימלף דנוצü!<br>Ä³הüךמ ימדמ בונט!<br>Õמכ÷נא!</p>
 </div>
 <!-- Photos section -->
-<div class="container" style="height: 550px;">
-    <div class="carousel" style="top: 20px"> <!--todo remake it-->
-        <a class="carousel-item" href="#one!"><img  src="resources/photos/1.jpg"></a>
-        <a class="carousel-item" href="#two!"><img  src="resources/photos/2.jpg"></a>
-        <a class="carousel-item" href="#three!"><img  src="resources/photos/3.jpg"></a>
-        <a class="carousel-item" href="#four!"><img  src="resources/photos/4.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/5.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/6.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/7.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/8.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/9.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/10.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/11.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/12.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/13.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/14.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/15.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/16.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/17.jpg"></a>
-        <a class="carousel-item" href="#five!"><img  src="resources/photos/18.jpg"></a>
+<div class="carousel-container">
+
+    <div class="carousel" > <!--todo remake it-->
+        <a class="carousel-item" ><img  src="resources/photos/1.jpg"></a><!--todo make pics easier to load-->
+        <a class="carousel-item" ><img  src="resources/photos/2.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/3.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/4.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/5.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/6.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/7.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/8.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/9.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/10.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/11.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/12.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/13.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/14.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/15.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/16.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/17.jpg"></a>
+        <a class="carousel-item" ><img  src="resources/photos/18.jpg"></a>
+        <div class="arrows">
+            <i id="left" class="fa fa-chevron-left"></i>
+            <i id="right" class="fa fa-chevron-right"></i>
+        </div>
     </div>
 </div>
 
