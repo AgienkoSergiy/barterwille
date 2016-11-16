@@ -1,5 +1,3 @@
-
-<!--todo make it clean -->
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@page contentType="text/html; charset=Windows-1251"%>
 
@@ -67,7 +65,7 @@
 <!-- Photos section -->
 <div class="carousel-container">
 
-    <div class="carousel" > <!--todo remake it-->
+    <div class="carousel" > <!--TODO add listing buttons-->
         <a class="carousel-item" ><img  src="resources/photos/1.jpg"></a><!--todo make pics easier to load-->
         <a class="carousel-item" ><img  src="resources/photos/2.jpg"></a>
         <a class="carousel-item" ><img  src="resources/photos/3.jpg"></a>
@@ -86,10 +84,6 @@
         <a class="carousel-item" ><img  src="resources/photos/16.jpg"></a>
         <a class="carousel-item" ><img  src="resources/photos/17.jpg"></a>
         <a class="carousel-item" ><img  src="resources/photos/18.jpg"></a>
-        <div class="arrows">
-            <i id="left" class="fa fa-chevron-left"></i>
-            <i id="right" class="fa fa-chevron-right"></i>
-        </div>
     </div>
 </div>
 

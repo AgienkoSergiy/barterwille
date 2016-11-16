@@ -2,7 +2,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@page contentType="text/html; charset=Windows-1251"%>
 
-
+<!--Top parallax-->
 <div id="index-banner" class="parallax-container" style="height: 400px;">
     <div class="section no-pad-bot">
         <div class="row right">
@@ -22,9 +22,9 @@
                                alt="Background img 1"></div>
 </div>
 
-<div class="container"> <!--todo iterate it-->
+<!--   Artists info section   -->
+<div class="container"> <!--TODO make iterated from DB-->
     <div class="section">
-        <!--   Artists Section   -->
         <div class="row">
             <div class="col s12 m4">
                 <div class="card">
@@ -136,17 +136,16 @@
             </div>
         </div>
     </div>
-
 </div>
 
-
-<!--Modals-->
+<!--Modals--> <!--TODO inject tiles here-->
+<!--TODO ukrainian, motherfucker, do you speak it?-->
 <div id="vosmoy-modal" class="modal modal-fixed-footer">
     <div class="modal-content container">
         <img src="resources/artists/vosmoy_1.jpg">
         <br><br><br>
         <h4 class="center">Vosmoy</h4>
-        <p>Антон 8th Восьмой во многом примечательная фигура в современной рок-музыке.<!--todo ukrainian, motherfucker, do you speak it?-->
+        <p>Антон 8th Восьмой во многом примечательная фигура в современной рок-музыке.
             Своими силами записав пару лет назад демо-альбом с потрясающим материалом,
             он с лёгкостью завоевал множество почитателей и заставил весь Рунет задаваться
             вопросом: «Кто такой этот “Восьмой”?»<br>
@@ -181,7 +180,7 @@
         <img src="resources/artists/fontaliza_1.jpg">
         <br><br><br>
         <h4 class="center">Fontaliza</h4>
-        <p>Fontaliza – альтернативное рок трио с востока Украины. «Они устремляют свой взгляд в бесконечность <!--todo ukrainian, motherfucker, do you speak it?-->
+        <p>Fontaliza – альтернативное рок трио с востока Украины. «Они устремляют свой взгляд в бесконечность
             и при этом являются наследниками лучших рок-н-ролльных традиций прошлого». Прелесть этого коллектива
             — в доступности и качественности исполняемого материала. Для тех, кто любит «Oasis», «Muse», «Placebo»,
             ранний Radiohed или «Nirvana» — хороший выбор отечественного исполнителя в лице «Фонтализы».
@@ -254,8 +253,7 @@
     </div>
 </div>
 
-
-<!--bottom parallax-->
+<!--Bottom parallax-->
 <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
         <div class="container">

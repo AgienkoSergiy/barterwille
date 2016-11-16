@@ -1,8 +1,6 @@
-<!--todo make it clean -->
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
 <%@page contentType="text/html; charset=Windows-1251"%>
-
 
 <html lang="en">
     <head>
@@ -17,15 +15,14 @@
     </head>
     <body>
 
-        <section>
+        <!--Tiles-->
+        <section id="navBar">
             <tiles:insertAttribute name="navBar"/>
         </section>
-
-        <section>
+        <section id="body">
             <tiles:insertAttribute name="body" />
         </section>
-
-        <section>
+        <section id="footer">
             <tiles:insertAttribute name="footer"/>
         </section>
 
@@ -35,6 +32,5 @@
         <script src="js/index.js"></script>
         <script src="js/materialize.js"></script>
         <script src="js/init.js"></script>
-
     </body>
 </html>
