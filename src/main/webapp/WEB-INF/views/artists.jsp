@@ -168,9 +168,9 @@
             <i id="close" class="fa fa-times" aria-hidden="true"></i>
         </a>
         <div class="social left">
-            <a href="https://vk.com/8osmoy"><i id="vk" class="fa fa-vk"></i></a>
-            <a href="https://www.facebook.com/8vosmoy8"><i id="facebook" class="fa fa-facebook-square"></i></a>
-            <a href="http://vosmoy.bandcamp.com/"><i id="bandcamp" class="fa fa-bandcamp"></i></a>
+            <a href="https://vk.com/8osmoy" target="_blank"><i id="vk" class="fa fa-vk"></i></a>
+            <a href="https://www.facebook.com/8vosmoy8" target="_blank"><i id="facebook" class="fa fa-facebook-square"></i></a>
+            <a href="http://vosmoy.bandcamp.com/" target="_blank"><i id="bandcamp" class="fa fa-bandcamp"></i></a>
         </div>
     </div>
 </div>
@@ -208,9 +208,9 @@
             <i id="close" class="fa fa-times" aria-hidden="true"></i>
         </a>
         <div class="social left">
-            <a href="https://vk.com/fontaliza"><i id="vk" class="fa fa-vk"></i></a>
-            <a href="https://www.facebook.com/Fontaliza"><i id="facebook" class="fa fa-facebook-square"></i></a>
-            <a href="https://www.youtube.com/user/Fontaliza"><i id="youtube" class="fa fa-youtube"></i></a>
+            <a href="https://vk.com/fontaliza" target="_blank"><i id="vk" class="fa fa-vk"></i></a>
+            <a href="https://www.facebook.com/Fontaliza" target="_blank"><i id="facebook" class="fa fa-facebook-square"></i></a>
+            <a href="https://www.youtube.com/user/Fontaliza" target="_blank"><i id="youtube" class="fa fa-youtube"></i></a>
         </div>
 
     </div>
@@ -245,9 +245,9 @@
             <i id="close" class="fa fa-times" aria-hidden="true"></i>
         </a>
         <div class="social left">
-            <a href="https://vk.com/club_stereoisterika"><i id="vk" class="fa fa-vk"></i></a>
-            <a href="https://www.instagram.com/stereo_isterika/"><i id="instagram" class="fa fa-instagram"></i></a>
-            <a href="https://twitter.com/OPesotskyi"><i id="twitter" class="fa fa-twitter-square"></i></a>
+            <a href="https://vk.com/club_stereoisterika" target="_blank"><i id="vk" class="fa fa-vk"></i></a>
+            <a href="https://www.instagram.com/stereo_isterika/" target="_blank"><i id="instagram" class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/OPesotskyi" target="_blank"><i id="twitter" class="fa fa-twitter-square"></i></a>
         </div>
 
     </div>

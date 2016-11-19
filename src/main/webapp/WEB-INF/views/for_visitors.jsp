@@ -11,7 +11,7 @@
                      alt="logo" border="0"/>
             </a>
             <br><br>
-            <h1 class="header-white-on-white right">Відвідувачам</h1>
+            <h1 class="header-white-on-white right">Відвідувачам</h1> <!--TODO make in img-->
             <br><br>
         </div>
     </div>
@@ -109,7 +109,7 @@
                 <br>
                 <h1>Мапа фесту</h1>
                 <br>
-                <img class="materialboxed" width="650" src="resources/images/map.png">
+                <img class="materialboxed" width="90%" src="resources/images/map.png">
                 <br>
             </div>
         </li>

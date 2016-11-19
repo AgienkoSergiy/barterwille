@@ -7788,7 +7788,7 @@ Picker.extend( 'pickadate', DatePicker )
         $(window).resize(function(){
             $('.carousel-container').height(image_height+50);
             $('.carousel').height(image_height+50);
-            location.href = self.location; //todo make div reload
+            //location.href = self.location; //todo make div reload
         });
     });// Plugin end
 }( jQuery ));
